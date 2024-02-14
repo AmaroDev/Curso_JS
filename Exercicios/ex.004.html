@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* Trocando Ponto por virgula
+        
+        n1=1545.5
+        1545.5
+        n1.toFixed(2)
+        '1545.50'
+        n1.toFixed(2).replace('.', ',')
+        '1545,50'
+        Para Adicionar o R$ -> > 
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        'R$ 1.545,50'
+        Dolar 'USD'
+        Euro  'EUR'
+        
+        */
         body {
             font: bolder 20pt Times; 
         }
