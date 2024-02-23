@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <title>Somando Números</title>
+    <style>
+        body {
+            font: normal 15pt Arial;
+            color: rgb(109, 109, 247);
+            
+        }
+
+        input {
+            font: normal 18pt Times bold;
+            width: 100px;
+            color: crimson;
+            border-radius: 10px;background-color: rgb(198, 245, 229);
+        }
+        div#res {
+            margin-top: 20px;
+
+        }
+    </style>
 </head>
 <body>
     <h1>Somando Valores</h1>
@@ -20,7 +38,7 @@
             var n1 = Number(tn1.value)
             var n2 = Number(tn2.value)
             var s = n1 + n2
-            res.innerHTML = s
+            res.innerHTML = `A soma entre ${n1} e ${n2} é ${s}`
 
         }
     </script>    
