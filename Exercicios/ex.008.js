@@ -6,3 +6,4 @@ if (vel >= 60) {
 }
     console.log(`Boa Viagem!`)
 
+ 
