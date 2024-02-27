@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(139, 139, 247);
+    font: normal  15pt times;    
+
+}
+
+header {
+    color: azure;
+    text-align: center;
+
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 12px;
+    width: 500px;
+    margin: auto;
+
+}
+
+footer {
+    color: azure;
+    text-align: center;
+
+}
