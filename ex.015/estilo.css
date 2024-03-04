@@ -16,19 +16,20 @@ header {
 }
 
 section {
-    background: #fbce86;
+    background: #fde2b7;
     border-radius: 25px;
     padding: 15px;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     margin: auto;
+    background-position: center center;
     
 
 }
 
 div {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     font-style: italic;
 }
 
